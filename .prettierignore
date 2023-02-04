@@ -1,0 +1,14 @@
+# dependencies
+/node_modules
+package-lock.json
+package.json
+
+# nextjs
+.next
+public
+next-env.d.ts
+/.next/
+/out/
+
+# production
+/build
