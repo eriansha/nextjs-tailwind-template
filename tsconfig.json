@@ -21,7 +21,16 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      /** common atom components **/
+      "@/atoms/*": ["./src/components/atoms/*"],
+      /** common molecules components **/
+      "@/molecules/*": ["./src/components/molecules/*"],
+      /** common organisms components **/
+      "@/organisms/*": ["./src/components/organisms/*"],
+      /** collection of utils **/
+      "@/utils/*": ["./src/utils/*"],
+      /** collection of constant value **/
+      "@/constant/*": ["./src/constants/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
