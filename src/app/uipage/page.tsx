@@ -1,3 +1,13 @@
+import Button from "@/atoms/Button"
+import Title from "@/atoms/Title"
+
 export default function UIPage() {
-  return <div>UI page</div>
+  return (
+    <main>
+      <section>
+        <Title level={2}>Button</Title>
+        <Button>Click here</Button>
+      </section>
+    </main>
+  )
 }
